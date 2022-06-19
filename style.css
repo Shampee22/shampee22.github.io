@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  background-color: floralwhite;
+  font-weight: 300;
+  font-size: 16px;
+  font-family: 'Poppins', serif;
+  color: #fa6c00;
+  position: relative;
+
+}
+
+
+.navbar-brand {
+  font-family: 'Poppins', serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: auto;
+
+}
+
+.dropdown-item {
+  font: font-family: 'Poppins', serif;
+  color: dimgrey;
+}
+
+/* Style the navigation bar */
+.iconbar {
+  overflow: auto;
+  font-family: 'Poppins', serif;
+  color: grey;
+}
+
+/* Navbar links */
+.iconbar a {
+  float: left;
+  text-align: right;
+  padding: 12px;
+  font-family: 'Poppins', serif;
+  color: grey;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .iconbar a {
+    float: none;
+    display: block;
+    color: grey;
+  }
+}
+
+p {
+  font: font-family: 'Poppins', serif;
+  color: dimgrey;
+}
+
+.footer {
+  background-color: #2d3238;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+small {
+  color: darkgray;
+}
+
+* {
+  box-sizing: border-box
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+img {
+  height: 60%;
+  width: 60%;
+}
+
+.profile {
+  float: left;
+  width: 50%;
+}
+
+.reference {
+  font-style: italic;
+}
